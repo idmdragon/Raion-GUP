@@ -22,7 +22,6 @@ class DetailActivity : AppCompatActivity() {
 
         val intentUser = intent.getParcelableExtra<User>(USER_DATA)
         val user : User? = intentUser
-        Log.d("DetailActivityDebug","Isi dari intentUser $intentUser")
 
         with(detailBinding){
             tvCompany.text = user?.Company

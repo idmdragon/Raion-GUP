@@ -1,7 +1,6 @@
 package com.raionapp.githubuserprofile.ui.main
 
 import android.content.Intent
-import androidx.annotation.NonNull
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.raionapp.githubuserprofile.data.User
